@@ -7,7 +7,7 @@ int main(){
     cin>>n;
     while(n>0){
         rem=n%10;
-        dec=dec+(place)*rem;
+        dec=dec+place*rem;
         place=place*2;
         n=n/10;
     }
